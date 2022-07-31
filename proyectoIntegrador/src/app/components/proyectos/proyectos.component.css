@@ -18,3 +18,15 @@
     box-shadow: 10px 10px 30px #000000;
     border-radius: 10%;
 }
+
+.img-proyecto:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+@media(max-width: 575px) {
+    .img-proyecto:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}

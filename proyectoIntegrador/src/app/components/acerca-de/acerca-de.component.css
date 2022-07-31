@@ -5,31 +5,42 @@ div {
     background-color: rgb(246, 165, 204);
 }
 
-/*Estilo foto de perfil*/
-@media(min-width: 576px) {
-    #fotodeperfil {
-        position: absolute;
-        width: 18%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 0.2%;
-        top: 800px;
-    }
+h1, p {
+    font-family:cursive;
+    font-style: italic;
+    color: #fefefe;
 }
-@media(max-width: 575px) {
+
+/*Estilo etiqueta Nombre*/
+#nombre {
+    margin-top: 2%;
+}
+
+/*Estilo foto de perfil*/
+#fotodeperfil {
+    position: absolute;
+    width: 18%;
+    border-radius: 60%;
+    box-shadow: 3px 3px 3px grey;
+    left: 0.2%;
+    top: 50em;
+}
+
+@media  (max-width: 575px) {
     #fotodeperfil {
         position: absolute;
         width: 45%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 30%;
-        top: 330px;
+        top: 20em;
     }
 }
 
 
-/*Estilo etiqueta Nombre*/
-#nombre {
-    font-weight: bold;
-    margin-top: 20%;
-}
+
+
+
+
+
+

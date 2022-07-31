@@ -8,4 +8,13 @@ div {
 
 h1, h3 {
     display: inline;
+    font-family:cursive;
+    font-style: italic;
+    color: #fefefe;
+}
+
+p {
+    font-family:cursive;
+    font-style: italic;
+    color: #fefefe;
 }

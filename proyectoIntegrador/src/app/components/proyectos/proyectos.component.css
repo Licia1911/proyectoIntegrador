@@ -8,11 +8,18 @@
     padding: 5%;
 }
 
+h1, p {
+    font-family:cursive;
+    font-style: italic;
+    color: grey;
+}
+
 
 .texto, .imagen {
     display: inline-block;
 
 }
+
 
 .img-proyecto {
     box-shadow: 10px 10px 30px #000000;

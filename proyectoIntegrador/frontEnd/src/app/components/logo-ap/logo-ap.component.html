@@ -11,11 +11,10 @@
                 <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
                 <a href=""><img src="../../../assets/instagram.png" id="instagram"></a>
                 <a href=""><img src="../../../assets/facebook.png" id="facebook"></a>
-                <button type="button" class="btn btn-outline-light"(click)="login()">Ingreso</button>
+                <button type="button" class="btn btn-outline-light"(click)="login()" *ngIf="!isLogged">Ingreso</button>
+                <button type="button" class="btn btn-outline-light"(click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button>
             </div>
 
         </div>
     </div>
-
 </div>
-

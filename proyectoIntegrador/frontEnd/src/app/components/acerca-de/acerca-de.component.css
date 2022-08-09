@@ -1,12 +1,14 @@
 .row {
     padding: 20px;
 }
+
 div {
     background-color: rgb(246, 165, 204);
 }
 
-h1, p {
-    font-family:cursive;
+h1,
+p {
+    font-family: cursive;
     font-style: italic;
     color: #fefefe;
 }
@@ -26,21 +28,15 @@ h1, p {
     top: 50em;
 }
 
-@media  (max-width: 575px) {
+@media (max-width: 575px) {
+
     #fotodeperfil {
         position: absolute;
-        width: 45%;
+        width: 35%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 30%;
         top: 20em;
+
     }
 }
-
-
-
-
-
-
-
-

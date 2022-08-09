@@ -1,21 +1,21 @@
-.gradient-custom-2 {
+.gradient-custom {
     /* fallback for old browsers */
-    background: rgb(246, 165, 204);
+    background: #f10985;
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgb(246, 164, 202,1), rgb(243, 97, 168,1));
+    background: -webkit-linear-gradient(to right, rgb(235, 10, 141), rgb(242, 186, 225));
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgb(246, 164, 202,1), rgb(243, 97, 168,1));
-}
-    @media (min-width: 768px) {
-        .gradient-form {
-        height: 100vh !important;
-        }
-        }
-        @media (min-width: 769px) {
-        .gradient-custom-2 {
-        border-top-right-radius: .3rem;
-        border-bottom-right-radius: .3rem;
-        }
+    background: linear-gradient(to right, rgba(235, 10, 141, 1), #f2bae1)
     }
+
+    .gradient-custom-2 {
+        /* fallback for old browsers */
+        background: #f10985;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, #d8363a, #dd3675, #b44593);
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #d8363a, #dd3675, #b44593);
+        }    

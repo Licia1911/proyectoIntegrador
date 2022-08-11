@@ -3,10 +3,10 @@
     background: #f10985;
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgb(235, 10, 141), rgb(242, 186, 225));
+    background: -webkit-linear-gradient(to right, rgb(246, 165, 204), rgb(249, 217, 204));
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(235, 10, 141, 1), #f2bae1)
+    background: linear-gradient(to right, rgba(246, 165, 204, 1), rgba(249,217,232,1));
     }
 
     .gradient-custom-2 {

@@ -6,15 +6,21 @@ div {
     background: rgb(246, 165, 204);
 }
 
-h1, h3 {
+td {
+    font-family:cursive;
+    font-style: italic;
+    color: grey;
+}
+
+h1, h2, h3 {
     display: inline;
     font-family:cursive;
     font-style: italic;
-    color: #fefefe;
+    color: grey;
 }
 
 p {
     font-family:cursive;
     font-style: italic;
-    color: #fefefe;
+    color: grey;
 }

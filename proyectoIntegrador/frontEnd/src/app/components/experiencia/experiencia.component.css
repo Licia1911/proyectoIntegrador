@@ -6,7 +6,13 @@ div {
     background: rgb(249, 217, 232);
 }
 
-h1, h3 {
+td {
+    font-family:cursive;
+    font-style: italic;
+    color: grey;
+}
+
+h1, h2, h3 {
     display: inline;
     font-family:cursive;
     font-style: italic;
